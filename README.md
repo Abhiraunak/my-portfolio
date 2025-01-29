@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **modern, fully responsive** personal portfolio website built using **React.js** and **TailwindCSS**. It showcases projects, skills, and contact information in a clean and elegant design.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🌟 Features
 
-- Configure the top-level `parserOptions` property like this:
+✅ **Fully Responsive** – Works on all devices (desktop, tablet, mobile).  
+✅ **Modern UI/UX** – Clean, animated, and interactive design.  
+✅ **Projects Showcase** – Displays portfolio projects dynamically.  
+✅ **Smooth Animations** – Uses Framer Motion for enhanced experience.  
+✅ **Dark Mode Support** – Toggle between light and dark themes.  
+✅ **Contact Form Integration** – Connects with Email.js for direct messages.  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Frontend:** React.js, TailwindCSS  
+- **Animation:** Framer Motion  
+- **Forms:** Email.js  
+- **Icons:** React Icons  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## 📸 Screenshots
+
+![Home Page](screenshot-home.png)
+![Projects Section](screenshot-projects.png)
+
+---
